@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightskyblue !important;
+}
+
+.header {
+    text-align: center;
+}
+
+.UIengine {
+    margin-top: 160px !important;
+}
+
+.tag {
+    background-color: lightsalmon;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin: 0 5px 10px 0;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.tag.highlight {
+    background-color: #273c7f;
+}
