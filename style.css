@@ -27,3 +27,29 @@ body{
 .tag.highlight {
     background-color: #273c7f;
 }
+
+.logoImg {
+    width: 20px;
+}
+
+.advert {
+    text-align: center;
+    margin-left: 103px;
+    margin-right: 103px;
+    margin-top: 10px;
+    background-position: center;
+}
+
+.advert-hide {
+    visibility: hidden;
+
+}
+
+
+.advert-text {
+    color: darkblue;
+    font-variant: small-caps;
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 2;
+}

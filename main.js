@@ -1,7 +1,12 @@
 const tagsEl = document.getElementById("tags")
 const textArea = document.getElementById("floatingTextarea")
+const advert = document.getElementById("advert")
 
 textArea.focus()
+
+const comingSoonBlinker = setInterval(() => {
+    advert.classList.toggle("advert-hide")
+}, 1500)
 
 textArea.addEventListener("keyup", (e) => {
     createTags(e.target.value )
